@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+        function copyEmail() {
+            const email = "ramasandyka08@gmail.com";
+            navigator.clipboard.writeText(email).then(()=>{
+                alert("Email copied to clipboard:" + email);
+            });
+        }
+    </script>
+    <title>Add Favicon</title>
+    <link rel="shortcut icon" 
+    href="img/logoRM.png" 
+    type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <img src="img/profile.jpeg" class="profile-image" alt="Profile Photo" />
+        <h1>Rama Sandyka Putra</h1>
+        <p>Just For Fun | CEO of PT.Sandyka Rama | I like playing Mobile legend </p>
+        <p class="Contact" onclick="copyEmail()"> Contact me at: ramasandyka08@gmail.com</p>
+    <div class="box">
+        <a class="link-btn" href="https://instagram.com/ramaasdy_" target="_blank">
+            Instagram
+        </a>
+        <a class="link-btn" href="https://www.tiktok.com/@bacodoang?is_from_webapp=1&sender_device=pc" target="_blank">
+            Tiktok
+        </a>
+        <a class="link-btn" href="https://www.linkedin.com/in/ramasandyka/" target="_blank">
+            LinkedIn
+        </a>
+        </div>
+    
+    
+    
+    </div>
+</body>
+</html>
